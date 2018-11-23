@@ -1,0 +1,71 @@
+----------------------------------------------------------------------
+Report for cell LED_top_module.verilog
+
+Register bits: 10 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       17
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        4       100.0
+                            FD1P3DX        1       100.0
+                            FD1S3DX        9       100.0
+                                GSR        1       100.0
+                                 IB        7       100.0
+                                INV        1       100.0
+                                 OB       10       100.0
+                           ORCALUT4       20       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                                VHI        5       100.0
+                                VLO        5       100.0
+SUB MODULES 
+                      clock_counter        1       100.0
+                                dec        1       100.0
+                                mux        1       100.0
+                      state_machine        1       100.0
+                            
+                         TOTAL            69           
+----------------------------------------------------------------------
+Report for cell dec.netlist
+     Instance path:  satan
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        3        15.0
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell mux.netlist
+     Instance path:  lucifer
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        6        30.0
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL             8           
+----------------------------------------------------------------------
+Report for cell state_machine.netlist
+     Instance path:  FSM_1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        1       100.0
+                            FD1S3DX        1        11.1
+                           ORCALUT4        4        20.0
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL             8           
+----------------------------------------------------------------------
+Report for cell clock_counter.netlist
+     Instance path:  counter_1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        4       100.0
+                            FD1S3DX        8        88.9
+                           ORCALUT4        7        35.0
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL            21           

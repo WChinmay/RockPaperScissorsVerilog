@@ -1,0 +1,1 @@
+@W: MT420 |Found inferred clock LED_top_module|clk_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:clk"

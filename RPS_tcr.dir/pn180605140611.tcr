@@ -1,0 +1,6 @@
+#Start recording tcl command: 6/5/2018 14:00:36
+#Project Location: C:/lscc/diamond/3.10_x64/Projects/RockPaperScissor; Project name: RPS
+prj_project open "C:/lscc/diamond/3.10_x64/Projects/RockPaperScissor/RPS.ldf"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 6/5/2018 14:06:11

@@ -1,0 +1,12 @@
+@P:  Worst Slack : 475.818
+@P:  LED_top_module|clk_inferred_clock - Estimated Frequency : 202.0 MHz
+@P:  LED_top_module|clk_inferred_clock - Requested Frequency : 2.1 MHz
+@P:  LED_top_module|clk_inferred_clock - Estimated Period : 4.951
+@P:  LED_top_module|clk_inferred_clock - Requested Period : 480.769
+@P:  LED_top_module|clk_inferred_clock - Slack : 475.818
+@P:  Total Area : 16.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:01s

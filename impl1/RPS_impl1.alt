@@ -1,0 +1,25 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Jun 05 14:01:46 2018 *
+NOTE DESIGN NAME: LED_top_module *
+NOTE DEVICE NAME: LCMXO3LF-6900C-5CABGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS state[0] : C7 : out *
+NOTE PINS reset_n : B7 : in *
+NOTE PINS segments_out[6] : F5 : out *
+NOTE PINS segments_out[5] : E3 : out *
+NOTE PINS segments_out[4] : B1 : out *
+NOTE PINS segments_out[3] : F3 : out *
+NOTE PINS segments_out[2] : D3 : out *
+NOTE PINS segments_out[1] : G3 : out *
+NOTE PINS segments_out[0] : C2 : out *
+NOTE PINS state[2] : D10 : out *
+NOTE PINS state[1] : D7 : out *
+NOTE PINS p2[2] : C4 : in *
+NOTE PINS p2[1] : F7 : in *
+NOTE PINS p2[0] : B9 : in *
+NOTE PINS p1[2] : B6 : in *
+NOTE PINS p1[1] : B5 : in *
+NOTE PINS p1[0] : B4 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,28 @@
+Selecting top level module LED_top_module
+@N: CG364 :"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo3lf.v":1759:7:1759:10|Synthesizing module OSCH in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":1:7:1:19|Synthesizing module clock_counter in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\State_Machine.sv":1:7:1:19|Synthesizing module state_machine in library work.
+@W: CL216 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\State_Machine.sv":29:4:29:7|always_ff does not infer sequential logic
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Multiplexer.sv":1:7:1:9|Synthesizing module mux in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Decoder.sv":1:7:1:9|Synthesizing module dec in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\LED_FSM_top.sv":1:7:1:20|Synthesizing module LED_top_module in library work.
+@W: CG133 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\LED_FSM_top.sv":18:14:18:17|Object bit0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\LED_FSM_top.sv":19:14:19:17|Object bit1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\LED_FSM_top.sv":20:14:20:17|Object bit2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\LED_FSM_top.sv":21:14:21:17|Object bit3 is declared but not assigned. Either assign a value or remove the declaration.
+@N: CL159 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Multiplexer.sv":3:18:3:18|Input s is unused.
+@N: CL201 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\State_Machine.sv":17:2:17:10|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   011
+   100
+@W: CL190 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":12:2:12:10|Optimizing register bit count[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":12:2:12:10|Optimizing register bit count[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":12:2:12:10|Optimizing register bit count[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":12:2:12:10|Optimizing register bit count[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":12:2:12:10|Optimizing register bit count[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":12:2:12:10|Optimizing register bit count[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":12:2:12:10|Optimizing register bit count[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":12:2:12:10|Pruning register bits 13 to 7 of count[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.

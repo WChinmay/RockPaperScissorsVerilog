@@ -1,0 +1,47 @@
+---------------------------------------------------
+Report for cell LED_top_module
+   Instance path: LED_top_module
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.00        100.0
+                                  LUT4	      21.00        100.0
+                                 IOBUF	         17        100.0
+                                PFUREG	         10        100.0
+                                RIPPLE	          4        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         state_machine	          1        14.4
+                                   mux	          1        20.0
+                                   dec	          1        10.0
+                         clock_counter	          1        48.9
+---------------------------------------------------
+Report for cell dec
+   Instance path: LED_top_module/satan
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.50        10.0
+                                  LUT4	       3.00        14.3
+---------------------------------------------------
+Report for cell mux
+   Instance path: LED_top_module/lucifer
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00        20.0
+                                  LUT4	       6.00        28.6
+---------------------------------------------------
+Report for cell state_machine
+   Instance path: LED_top_module/FSM_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.17        14.4
+                                  LUT4	       4.00        19.0
+                                PFUREG	          2        20.0
+---------------------------------------------------
+Report for cell clock_counter
+   Instance path: LED_top_module/counter_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.33        48.9
+                                  LUT4	       7.00        33.3
+                                PFUREG	          8        80.0
+                                RIPPLE	          4        100.0

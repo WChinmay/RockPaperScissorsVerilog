@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\synwork\RPS_impl1_comp.srs  -osyn  C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\synwork\RPS_impl1_mult.srs  -log  C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\synlog\RPS_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\synpbase\bin64\syn_nfilter.exe -link -multisrs ..\synwork\RPS_impl1_comp.srs -osyn ..\synwork\RPS_impl1_mult.srs -log ..\synlog\RPS_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\RPS_impl1_comp.srs|io:i|time:1528232456|size:6749|exec:0|csum:B89BB208D6EB6ED53365EB2E19F17E4B
+file:..\synwork\RPS_impl1_mult.srs|io:o|time:1528232457|size:3381|exec:0|csum:
+file:..\synlog\RPS_impl1_multi_srs_gen.srr|io:o|time:1528232457|size:865|exec:0|csum:
+file:..\..\..\..\synpbase\bin64\syn_nfilter.exe|io:i|time:1501917390|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

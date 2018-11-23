@@ -1,0 +1,16 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo3lf.v":1759:7:1759:10|Synthesizing module OSCH in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Clock_Counter.sv":1:7:1:19|Synthesizing module clock_counter in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\State_Machine.sv":1:7:1:19|Synthesizing module state_machine in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Multiplexer.sv":1:7:1:9|Synthesizing module mux in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Decoder.sv":1:7:1:9|Synthesizing module dec in library work.
+@N: CG364 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\LED_FSM_top.sv":1:7:1:20|Synthesizing module LED_top_module in library work.
+@N: CL159 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\Multiplexer.sv":3:18:3:18|Input s is unused.
+@N: CL201 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\State_Machine.sv":19:2:19:10|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\LED_FSM_top.sv":1:7:1:20|Selected library: work cell: LED_top_module view verilog as top level
+@N: NF107 :"C:\lscc\diamond\3.10_x64\Projects\RockPaperScissor\impl1\source\LED_FSM_top.sv":1:7:1:20|Selected library: work cell: LED_top_module view verilog as top level
+

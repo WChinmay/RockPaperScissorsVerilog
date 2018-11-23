@@ -1,0 +1,9 @@
+#Start recording tcl command: 11/22/2018 16:09:21
+#Project Location: C:/lscc/diamond/3.10_x64/Projects/RockPaperScissor; Project name: RPS
+prj_project open "C:/lscc/diamond/3.10_x64/Projects/RockPaperScissor/RPS.ldf"
+prj_run Map -impl impl1 -task MapVerilogSimFile
+pgr_project open "C:/lscc/diamond/3.10_x64/Projects/RockPaperScissor/impl1/impl1.xcf"
+pgr_project close
+pgr_project open "C:/lscc/diamond/3.10_x64/Projects/RockPaperScissor/impl1/impl1.xcf"
+pgr_project close
+#Stop recording: 11/22/2018 16:12:01
